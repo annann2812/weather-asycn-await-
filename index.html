@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather by Ann</title>
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input class="input" type="text" placeholder="enter city name" spellcheck="false">
+            <button class="btn"><i class='bx bx-search icon'></i></button>
+        </div>
+        <div class="error">
+            <p>Invalid City Name!</p>
+        </div>
+        <div class="weather">
+            <img src="../assets all/gloomy.png" class="weather-icon">
+            <h1 class="temp">38°C</h1>
+            <h2 class="city">Ha Noi</h2>
+            <div class="detail">
+                <div class="col">
+                    <i class='bx bx-water'></i>
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <i class='bx bx-wind' ></i>
+                    <div>
+                        <p class="wind">15 km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
